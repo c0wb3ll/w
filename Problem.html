@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> c0wb3ll's Web </title>
+	<link rel="stylesheet" type="text/css" href="test.css?ver=1">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="frame">
+		<div class="header">
+			<div class="logo">c0wb3ll's Web</div>
+		</div>
+		<div class="container">
+			<div class="nav">
+				<ul class="nav-list">
+					<li class="nav-item"><button class="tab_menu_btn" onclick="location.href = 'index.html'">Home</button></li>
+					<li class="nav-item"><button class="tab_menu_btn" onclick="location.href = 'Problem.html'">Problem</button></li>
+					<li class="nav-item"><button class="tab_menu_btn">Sign In</button></li>
+					<li class="nav-item"><button class="tab_menu_btn">Sign Up</button></li>
+				</ul>
+			</div>
+			<div class="content">
+				<h1 style="font-size: 40px; margin-bottom: 1%;"> Problem </h1>
+				<hr style="margin-right: 3%;"><p></p>
+				<ul class="tab-list">
+    				<li>
+        				<button onclick="javascript:oksSwitchTab('tb_1', 'content_1');" id="tb_1" class="tabmenu active"><a href="ch3.html" target="if_a">Ch.3</a></button>
+    				</li>
+    				<li>
+        				<button onclick="javascript:oksSwitchTab('tb_2', 'content_2');"id="tb_2" class="tabmenu"><a href="ch4.html" target="if_b">Ch.4</a></button>
+    				</li>
+    				<li>
+    					<button onclick="javascript:oksSwitchTab('tb_3', 'content_3');" id="tb_3" class="tabmenu"><a href="ch5.html" target="if_c">Ch.5</a></button>
+    				</li>
+    				<li>
+    					<button onclick="javascript:oksSwitchTab('tb_4', 'content_4');" id="tb_4" class="tabmenu"><a href="ch9.html" target="if_d">Ch.9</a></button>
+    				</li>
+    				<li>
+    					<button onclick="javascript:oksSwitchTab('tb_5', 'content_5');" id="tb_5" class="tabmenu"><a href="ch10.html" target="if_e">Ch.10</a></button>
+    				</li>
+				</ul>
+				<span id="content_1" class="tabcontent on">
+					<iframe name="if_a" srcdoc="Ch.3 과제 버튼 가운데 링크를 눌러주세요"></iframe>
+				</span>
+				<span id="content_2" class="tabcontent">
+					<iframe name="if_b" srcdoc="Ch.4 과제 버튼 가운데 링크를 눌러주세요"></iframe>
+				</span>
+				<span id="content_3" class="tabcontent">
+					<iframe name="if_c" srcdoc="Ch.5 과제 버튼 가운데 링크를 눌러주세요"></iframe>
+				</span>
+				<span id="content_4" class="tabcontent">
+					<iframe name="if_d" srcdoc="Ch.9 과제 버튼 가운데 링크를 눌러주세요"></iframe>
+				</span>
+				<span id="content_5" class="tabcontent">
+					<iframe name="if_e" srcdoc="Ch.10 과제 버튼 가운데 링크를 눌러주세요"></iframe>
+				</span>
+			</div>
+		</div>
+		<div class="footer">
+			<p class="copyright">&copy;anyone</p>
+		</div>
+	</div>
+</body>
+</html>
