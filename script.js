@@ -15,3 +15,20 @@ function oksSwitchTab(tab_id, tab_content) {
     }
     document.getElementById(tab_id).className = 'tabmenu active';
     }
+
+function login(){
+	var id = prompt("Please input your ID","ID");
+	var pw = prompt("Please input your Password","PW");
+
+	if (id=='admin' && pw=='admin'){
+		alert("Success Login ADMIN Address");
+		location.href="home.html";
+	}
+	else if (id=='guest' && pw=='guest'){
+		alert("Welcome Guest!! in c0wb3ll's Web!!");
+		location.href="home.html";
+	}
+	else{
+		alert("Try Again....");
+	}
+}
